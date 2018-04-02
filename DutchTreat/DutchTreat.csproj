@@ -5,11 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\App\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <_ContentIncludedByDefault Remove="bower.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\App\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
   </ItemGroup>
 
 </Project>
