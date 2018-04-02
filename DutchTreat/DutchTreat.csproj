@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <_ContentIncludedByDefault Remove="bower.json" />
   </ItemGroup>
 
   <ItemGroup>
