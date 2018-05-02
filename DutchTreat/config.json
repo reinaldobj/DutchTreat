@@ -7,5 +7,10 @@
       "Default": "Information",
       "Microsoft": "Warning"
     }
+  },
+  "Tokens": {
+    "Key": "umdemaiodedoismiledezoito",
+    "Issuer": "localhost",
+    "Audience": "users"
   }
 }
