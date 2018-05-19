@@ -1,7 +1,24 @@
 {
-  "include": [ "wwwroot/ts/**/*.ts" ],
+  "compileOnSave": false,
+  "include": [
+    "./ClientApp",
+    "./wwwroot/ts"
+  ],
   "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "wwwroot/clientapp/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "target": "es5",
-    "sourceMap": true
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ]
   }
 }
