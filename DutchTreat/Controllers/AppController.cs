@@ -54,7 +54,6 @@ namespace DutchTreat.Controllers
             return View();
         }
 
-        [Authorize]
         public IActionResult Shop()
         {
             return View();
